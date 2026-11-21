@@ -1,9 +1,13 @@
 <!-- BEGIN:AVATAR -->
-To be populated by generator-python python-lib-partials
+![Avatar](avatar.jpg)
 <!-- END:AVATAR -->
 
 <!-- BEGIN:BADGES -->
-To be populated by generator-python python-lib-partials
+[![Build Status](https://github.com/littlegodzillalaboratory/modrinth-dl/workflows/CI/badge.svg)](https://github.com/littlegodzillalaboratory/modrinth-dl/actions?query=workflow%3ACI)
+[![Code Scanning Status](https://github.com/littlegodzillalaboratory/modrinth-dl/workflows/CodeQL/badge.svg)](https://github.com/littlegodzillalaboratory/modrinth-dl/actions?query=workflow%3ACodeQL)
+[![Dependencies Status](https://img.shields.io/librariesio/release/pypi/modrinth-dl)](https://libraries.io/npm/modrinth-dl)
+[![Security Status](https://snyk.io/test/github/littlegodzillalaboratory/modrinth-dl/badge.svg)](https://snyk.io/test/github/littlegodzillalaboratory/modrinth-dl)
+[![Published Version](https://img.shields.io/pypi/v/modrinth-dl.svg)](https://pypi.python.org/pypi/modrinth-dl)
 <!-- END:BADGES -->
 
 # Modrinth Downloader
@@ -56,9 +60,17 @@ These are the `Downloader` constructor arguments:
 ## Colophon
 
 <!-- BEGIN:DEVELOPERS_GUIDE -->
-To be populated by generator-python python-lib-partials
+[Developer's Guide](https://littlegodzillalaboratory.github.io/developers-guide-python.html)
 <!-- END:DEVELOPERS_GUIDE -->
 
 <!-- BEGIN:BUILD_REPORTS -->
-To be populated by generator-python python-lib-partials
+Build reports:
+
+* [Lint report](https://littlegodzillalaboratory.github.io/modrinth-dl/lint/pylint/index.html)
+* [Code complexity report](https://littlegodzillalaboratory.github.io/modrinth-dl/complexity/radon/index.html)
+* [Unit tests report](https://littlegodzillalaboratory.github.io/modrinth-dl/test/pytest/index.html)
+* [Test coverage report](https://littlegodzillalaboratory.github.io/modrinth-dl/coverage/coverage/index.html)
+* [Integration tests report](https://littlegodzillalaboratory.github.io/modrinth-dl/test-integration/pytest/index.html)
+* [API Documentation](https://littlegodzillalaboratory.github.io/modrinth-dl/doc/sphinx/index.html)
+
 <!-- END:BUILD_REPORTS -->
