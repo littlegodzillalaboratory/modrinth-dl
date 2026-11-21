@@ -13,11 +13,18 @@
 </head>
 <body class="body_foreground body_background" style="font-size: normal;" >
 <pre class="ansi2html-content">
-modrinth_dl/downloader.py - A
-modrinth_dl/logger.py - A
+modrinth_dl/__init__.py - A
 modrinth_dl/checksum.py - A
 modrinth_dl/errors.py - A
-modrinth_dl/__init__.py - A
+modrinth_dl/logger.py - A
+modrinth_dl/downloader.py - A
+modrinth_dl/checksum.py
+    F 13:0 get_expected_hash - B (6)
+    F 42:0 calculate_file_hash - A (2)
+modrinth_dl/errors.py
+    C 4:0 ModrinthDlError - A (1)
+modrinth_dl/logger.py
+    F 8:0 init - A (2)
 modrinth_dl/downloader.py
     F 237:0 _select_file - B (6)
     F 248:0 _write_response - B (6)
@@ -30,13 +37,6 @@ modrinth_dl/downloader.py
     M 36:4 Downloader.__init__ - A (2)
     M 48:4 Downloader.download_mods - A (1)
     M 72:4 Downloader.download_datapacks - A (1)
-modrinth_dl/logger.py
-    F 8:0 init - A (2)
-modrinth_dl/checksum.py
-    F 13:0 get_expected_hash - B (6)
-    F 42:0 calculate_file_hash - A (2)
-modrinth_dl/errors.py
-    C 4:0 ModrinthDlError - A (1)
 
 15 blocks (classes, functions, methods) analyzed.
 Average complexity: A (3.4)
