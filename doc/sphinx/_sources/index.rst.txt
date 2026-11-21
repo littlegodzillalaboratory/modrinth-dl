@@ -1,5 +1,5 @@
 .. modrinth_dl documentation master file, created by
-   sphinx-quickstart on Sat Nov 21 23:44:49 2026.
+   sphinx-quickstart on Sat Nov 21 23:46:29 2026.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
