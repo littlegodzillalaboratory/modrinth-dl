@@ -8,7 +8,7 @@ from modrinth_dl.downloader import Downloader
 from modrinth_dl.errors import ModrinthDlError
 
 CONTENT = b"some file content"
-CONTENT_SHA1 = hashlib.sha1(CONTENT).hexdigest()
+CONTENT_SHA1 = hashlib.sha1(CONTENT, usedforsecurity=False).hexdigest()
 DEST_DIR = "/opt/fabricmc/workspace/mods"
 
 
