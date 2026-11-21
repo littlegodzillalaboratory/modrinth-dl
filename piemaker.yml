@@ -12,3 +12,4 @@ generator:
     author_url: https://littlegodzillalaboratory.github.io
     github_id: littlegodzillalaboratory
     github_repo: modrinth-dl
+    github_token_prefix: LITTLEGODZILLALABORATORY
