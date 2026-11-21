@@ -46,7 +46,9 @@ class TestCalculateFileHash(unittest.TestCase):
     )
     def test_sha1(self, func_open):
         result = calculate_file_hash("lithium.jar", "sha1")
-        self.assertEqual(result, hashlib.sha1(FILE_CONTENT).hexdigest())
+        self.assertEqual(
+            result, hashlib.sha1(FILE_CONTENT, usedforsecurity=False).hexdigest()
+        )
         func_open.assert_called_once_with("lithium.jar", "rb")
 
     @patch(
