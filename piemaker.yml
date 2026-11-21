@@ -1,0 +1,14 @@
+---
+author: Little Godzilla Laboratory
+package_name: modrinth_dl
+generator:
+  component: python-lib
+  inputs:
+    project_id: modrinth-dl
+    project_name: Modrinth Downloader
+    project_desc: Python lib for downloading Minecraft add-ons from Modrinth
+    author_name: Little Godzilla Laboratory
+    author_email: blah+lgl@cliffano.com
+    author_url: https://littlegodzillalaboratory.github.io
+    github_id: littlegodzillalaboratory
+    github_repo: modrinth-dl

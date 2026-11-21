@@ -1,0 +1,50 @@
+[build-system]
+requires = [ "poetry-core" ]
+build-backend = "poetry.core.masonry.api"
+
+[installer]
+no-binary = [ ":none:" ]
+
+[tool.poetry]
+name = "modrinth-dl"
+version = "0.9.0-pre.0"
+description = "Python lib for downloading Minecraft add-ons from Modrinth"
+license = "Apache-2.0"
+authors = [ "Little Godzilla Laboratory <blah+lgl@cliffano.com>" ]
+readme = "README.md"
+homepage = "https://github.com/littlegodzillalaboratory/modrinth-dl"
+repository = "https://github.com/littlegodzillalaboratory/modrinth-dl"
+documentation = "https://github.com/littlegodzillalaboratory/modrinth-dl"
+keywords = [ "modrinth-dl", "modrinth", "minecraft", "mods", "datapacks" ]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent"
+]
+
+[[tool.poetry.packages]]
+include = "modrinth_dl"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+conflog = "~2.1.0"
+modrinth-api-wrapper = "~1.0.0"
+requests = "~2.32.5"
+
+[tool.poetry.group.dev.dependencies]
+black = "~25.12.0"
+twine = "~6.2.0"
+wheel = "~0.45.1"
+
+[tool.poetry.group.test.dependencies]
+coverage = "~7.13.0"
+numpy = "1.26.4" # https://stackoverflow.com/questions/78634235/numpy-dtype-size-changed-may-indicate-binary-incompatibility-expected-96-from
+pylint = "~4.0.4"
+pytest = "~9.0.2"
+radon = "~6.0.1"
+
+[tool.poetry.group.doc.dependencies]
+ansi2html = "~1.9.2"
+pylint-report = "~2.4.2"
+pytest-html = "~4.1.1"
+Sphinx = "8.1.3" # Pinned for Python 3.10 support
