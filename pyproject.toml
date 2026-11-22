@@ -7,7 +7,7 @@ no-binary = [ ":none:" ]
 
 [tool.poetry]
 name = "modrinth-dl"
-version = "1.0.0"
+version = "1.0.1-pre.0"
 description = "Python lib for downloading Minecraft add-ons from Modrinth"
 license = "Apache-2.0"
 authors = [ "Little Godzilla Laboratory <blah+lgl@cliffano.com>" ]
